@@ -30,4 +30,6 @@ EOS
       sp.source_files = 'Source/PINDiskCache.m'
       sp.compiler_flags = '-fobjc-arc-exceptions'
   end
+  
+  s.default_subspecs = 'Core'
 end
